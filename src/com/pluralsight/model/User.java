@@ -3,7 +3,6 @@ package com.pluralsight.model;
 public class User {
     
     private String name;
-    
     private int age;
     
     public User() {
@@ -25,5 +24,4 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-    
 }
