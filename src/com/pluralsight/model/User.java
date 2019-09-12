@@ -2,7 +2,15 @@ package com.pluralsight.model;
 
 public class User {
     
+    /*
+     * User's name
+     */
     private String name;
+    
+    /*
+     * User's age
+     */
+    private int age;
 
     public String getName() {
         return name;
@@ -12,8 +20,4 @@ public class User {
         this.name = name;
     }
     
-    @Override
-    public String toString() {
-        return name;
-    }
 }
